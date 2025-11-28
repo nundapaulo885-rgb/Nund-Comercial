@@ -11,7 +11,8 @@ export enum TradeResult {
 
 export enum StrategyType {
   AI_GEMINI = 'AI_GEMINI',
-  RSI_REVERSAL = 'RSI_REVERSAL'
+  RSI_REVERSAL = 'RSI_REVERSAL',
+  SMA_CROSSOVER = 'SMA_CROSSOVER'
 }
 
 export interface Tick {
